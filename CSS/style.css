@@ -1,0 +1,284 @@
+:root {
+    --accent-color: #2196F3;
+    --primary-color: #212121;
+    --white-text: #FFFFFF;
+    --tetriary-color: #757575;
+    --secondary-color: rgba(255, 255, 255, 0.6);
+    --background: #2F303A;
+}
+
+body {
+    background-color: white;
+    font-family: Roboto, sans-serif;
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+/* CТИЛІЗАЦІЯ HEADER */
+
+
+
+/* стилізація логотипа */
+.logo {
+    color: currentColor;
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-accent {
+    color: var(--accent-color)
+}
+
+.logo-footer {
+    color: var(--white-text);
+}
+
+
+
+
+
+/* стилізація навігації */
+header ul {
+    list-style: none;
+}
+
+.navigation {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: currentColor;
+    text-decoration: none;
+}
+
+
+.navigation:focus {
+    color: var(--accent-color);
+}
+
+.navigation:hover {
+    color: var(--accent-color);
+}
+
+.navigation-studio {
+    color: var(--accent-color);
+}
+
+.navigation-portfolio {
+    color: var(--accent-color);
+}
+
+/* стилізація зв'язку */
+.connection {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--tetriary-color);
+    text-decoration: none;
+}
+
+.connection:focus {
+    color: var(--accent-color);
+}
+
+.connection:hover {
+    color: var(--accent-color);
+}
+
+
+
+
+
+/* СТИЛЫЗАЦІЯ FOOTER */
+.footer ul {
+    list-style: none;
+}
+
+.address {
+    text-decoration: none;
+    font-style: normal;
+    color: var(--secondary-color);
+}
+
+.footer {
+    background-color: var(--background);
+}
+
+.address-offline {
+    color: var(--white-text);
+}
+
+.address:hover {
+    color: var(--accent-color);
+}
+
+.address:focus {
+    color: var(--accent-color);
+}
+
+
+
+
+/* СТИЛІЗАЦІЯ MAIN ДЛЯ СТОРІНКИ "СТУДІЯ" */
+
+
+/* стилізція секції герой */
+.text-hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-text);
+    background-color: #2F303A;
+}
+
+.hero {
+    background-color: var(--background);
+}
+
+.hero-button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--white-text);
+    background-color: #2196F3;
+    cursor: pointer;
+
+}
+
+
+
+
+
+/* стилізація секції наші переваги */
+.advantages {
+    list-style: none;
+}
+
+.advantages-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.advantages-description {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--tetriary-color);
+}
+
+
+
+
+
+/* стилізація секції  */
+.work-title {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.work ul {
+    list-style: none;
+}
+
+
+
+
+
+/* стидізація секції наша команда */
+.team ul {
+    list-style: none;
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-employee {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-profession {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--tetriary-color);
+}
+
+
+
+
+
+/* СТИЛІЗАЦІЯ MAIN ДЛЯ СТОРЫНКИ ПОРТФОЛІО  */
+
+
+
+
+/* стилызація для фільтрів */
+.filters {
+    list-style: none;
+}
+
+.filters-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.filters-button:hover {
+    color: var(--white-text);
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.filters-button:focus {
+    color: var(--white-text);
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+
+
+
+/* стилізація секції котенту */
+.content {
+    list-style: none;
+}
+
+.content-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.content-description {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--tetriary-color);
+}
