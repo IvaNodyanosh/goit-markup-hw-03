@@ -259,8 +259,8 @@ header ul {
     margin-left: 30px;
 }
 
-.advantages>li {
-    width: calc((100%-90px)/4);
+.advantages {
+    width: calc(100%/4-90px);
 }
 
 
@@ -280,6 +280,7 @@ header ul {
 
 .work-img {
     display: block;
+
 }
 
 .work-list>li:not(:nth-child(3n)) {
@@ -333,7 +334,6 @@ header ul {
 
 .team-card {
     background-color: var(--white-text);
-    width: calc((100%-90px)/4);
     padding-bottom: 30px;
     border-radius: 0px 0px 4px 4px;
 }
@@ -344,6 +344,7 @@ header ul {
 
 .team-list {
     display: flex;
+    width: calc(100%/4-90px);
 }
 
 
@@ -404,7 +405,8 @@ header ul {
     font-weight: 700;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 24px;
 }
 
 .content-description {
@@ -414,6 +416,8 @@ header ul {
     letter-spacing: 0.03em;
     color: var(--tetriary-color);
     margin-top: 4px;
+    margin-left: 24px;
+    padding-bottom: 20px;
 }
 
 .content-box {
@@ -424,6 +428,20 @@ header ul {
     display: block;
 }
 
-.content>li:not(:nth-child(3n)) {
+.content {
+    width: calc(100%/3-66px);
+}
+
+.content>li:not(:nth-of-type(3n)) {
     margin-right: 30px;
+}
+
+.content-text {
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+
+.content>li {
+    margin-bottom: 30px;
 }
