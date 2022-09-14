@@ -179,8 +179,7 @@ header ul {
 
 }
 
-.address-offline,
-.address-mail {
+.container-address>li:not(:last-child) {
     margin-bottom: 9px;
 }
 
@@ -264,6 +263,10 @@ header ul {
     width: calc(100%/4-90px);
 }
 
+.section-advantages {
+    padding-bottom: 0px;
+}
+
 
 /* стилізація секції  */
 .work-title {
@@ -272,6 +275,11 @@ header ul {
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
+}
+
+.section-work {
+    padding-bottom: 94px;
+    padding-top: 118px;
 }
 
 .section ul {
@@ -311,7 +319,6 @@ header ul {
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    margin-top: 30px;
     text-align: center;
 }
 
@@ -330,7 +337,6 @@ header ul {
 
 .team-card {
     background-color: var(--white-text);
-    padding-bottom: 30px;
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -343,6 +349,9 @@ header ul {
     width: calc(100%/4-90px);
 }
 
+.team-text {
+    margin: 30px 0px;
+}
 
 
 /* СТИЛІЗАЦІЯ MAIN ДЛЯ СТОРЫНКИ ПОРТФОЛІО  */
@@ -397,12 +406,10 @@ header ul {
 }
 
 .content-title {
-    font-size: 18px;
     font-weight: 700;
+    font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    padding-top: 20px;
-    margin-left: 24px;
 }
 
 .content-description {
@@ -412,8 +419,6 @@ header ul {
     letter-spacing: 0.03em;
     color: var(--tetriary-color);
     margin-top: 4px;
-    margin-left: 24px;
-    padding-bottom: 20px;
 }
 
 .content-box {
@@ -425,19 +430,20 @@ header ul {
 }
 
 .content {
-    width: calc(100%/3-60px);
-}
-
-.content>li:not(:nth-of-type(3n)) {
-    margin-right: 30px;
-}
-
-.content-text {
-    border-left: 1px solid #EEEEEE;
-    border-bottom: 1px solid #EEEEEE;
-    border-right: 1px solid #EEEEEE;
+    margin: -15px;
 }
 
 .content>li {
-    margin-bottom: 30px;
+    margin: 15px;
+}
+
+.content>li {
+    width: calc(100%/3-30px);
+}
+
+.content-text {
+    padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
