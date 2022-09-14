@@ -33,7 +33,9 @@ body {
     margin-right: auto;
 }
 
-
+.section {
+    padding: 94px 0px;
+}
 
 
 .text-phantom {
@@ -237,8 +239,6 @@ header ul {
 .advantages {
     list-style: none;
     display: flex;
-    padding-top: 94px;
-    padding-bottom: 118px;
 }
 
 .advantages-title {
@@ -274,7 +274,7 @@ header ul {
     margin-bottom: 50px;
 }
 
-.work ul {
+.section ul {
     list-style: none;
     display: flex;
 }
@@ -288,10 +288,6 @@ header ul {
     margin-right: 30px;
 }
 
-.work {
-    margin-bottom: 94px;
-}
-
 
 /* стидізація секції наша команда */
 .team ul {
@@ -300,7 +296,6 @@ header ul {
 
 .team {
     background-color: var(--secondary-background);
-    padding: 94px 0px;
 }
 
 .team-title {
